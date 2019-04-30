@@ -1,11 +1,4 @@
-Revision history for OpenfMRI dataset ds000158
 
-2.0.0 2016-12-21
+1.0.0	2019-04-30
 
- - Converted to BIDS format
- - Subtracted 1 from each subject number to allow subject numbers to start at 001
- - Added events file
-
-1.0.0 2016-08-23
-
- - Initial release
+	- Initial snapshot
