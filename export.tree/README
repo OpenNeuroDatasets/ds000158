@@ -1,0 +1,103 @@
+### Comments added by Openfmri Curators ###
+===========================================
+
+Defacing
+--------
+Performed by submitter
+
+Quality Control
+---------------
+We are having difficulties running MRIQC and have not included the results in this
+revision. These should be present in the next revision.
+
+Where to discuss the dataset
+----------------------------
+1) www.openfmri.org/dataset/ds******/ See the comments section at the bottom of the dataset
+page.
+2) www.neurostars.org Please tag any discussion topics with the tags openfmri and dsXXXXXX
+accession number.
+3) Send an email to submissions@openfmri.org. Please include the dsXXXXXX accession number 
+in
+your email.
+
+
+Known Issues
+------------
+- The defacing process was quite aggressive for some of the anatomical images, resulting in minor removal of brain. According to the submitter, this is unlikely to have any effect on the BOLD workflow, as the workflow simply registers the mean EPI to the T1.
+- The workflow was created when the dataset was in a different organizational format. Since 
+the dataset has been converted to BIDS, it needs to be updated.
+
+Bids-validator Output
+---------------------
+
+	1: Not all subjects/sessions/runs have the same scanning parameters. (code: 39 - INCONSISTENT_PARAMETERS)
+		/sub-008/anat/sub-008_T1w.nii.gz
+			 The most common set of dimensions is: 256,256,192 (voxels), This file has the dimensions: 256,256,176 (voxels). The most common resolution is: 1.00mm x 1.00mm x 1.00mm, This file has the resolution: 1.02mm x 1.02mm x 1.00mm.
+		/sub-017/anat/sub-017_T1w.nii.gz
+			 The most common resolution is: 1.00mm x 1.00mm x 1.00mm, This file has the resolution: 1.02mm x 1.02mm x 1.00mm.
+		/sub-022/func/sub-022_task-passivelistening_bold.nii.gz
+			 The most common set of dimensions is: 70,70,32,310 (voxels), This file has the dimensions: 70,70,32,315 (voxels).
+		/sub-032/anat/sub-032_T1w.nii.gz
+			 The most common set of dimensions is: 256,256,192 (voxels), This file has the dimensions: 256,256,176 (voxels). The most common resolution is: 1.00mm x 1.00mm x 1.00mm, This file has the resolution: 0.98mm x 0.98mm x 1.00mm.
+		/sub-032/func/sub-032_task-passivelistening_bold.nii.gz
+			 The most common set of dimensions is: 70,70,32,310 (voxels), This file has the dimensions: 70,70,32,315 (voxels).
+		/sub-036/anat/sub-036_T1w.nii.gz
+			 The most common set of dimensions is: 256,256,192 (voxels), This file has the dimensions: 256,256,176 (voxels).
+		/sub-043/anat/sub-043_T1w.nii.gz
+			 The most common set of dimensions is: 256,256,192 (voxels), This file has the dimensions: 256,256,176 (voxels). The most common resolution is: 1.00mm x 1.00mm x 1.00mm, This file has the resolution: 1.02mm x 1.02mm x 1.00mm.
+		/sub-049/anat/sub-049_T1w.nii.gz
+			 The most common set of dimensions is: 256,256,192 (voxels), This file has the dimensions: 256,256,176 (voxels). The most common resolution is: 1.00mm x 1.00mm x 1.00mm, This file has the resolution: 1.02mm x 1.02mm x 1.00mm.
+		/sub-050/anat/sub-050_T1w.nii.gz
+			 The most common set of dimensions is: 256,256,192 (voxels), This file has the dimensions: 256,256,159 (voxels). The most common resolution is: 1.00mm x 1.00mm x 1.00mm, This file has the resolution: 0.86mm x 0.86mm x 1.00mm.
+		/sub-050/func/sub-050_task-passivelistening_bold.nii.gz
+			 The most common set of dimensions is: 70,70,32,310 (voxels), This file has the dimensions: 70,70,32,315 (voxels).
+		/sub-057/anat/sub-057_T1w.nii.gz
+			 The most common set of dimensions is: 256,256,192 (voxels), This file has the dimensions: 256,256,160 (voxels).
+		/sub-061/anat/sub-061_T1w.nii.gz
+			 The most common set of dimensions is: 256,256,192 (voxels), This file has the dimensions: 256,256,160 (voxels). The most common resolution is: 1.00mm x 1.00mm x 1.00mm, This file has the resolution: 1.02mm x 1.02mm x 1.00mm.
+		/sub-072/anat/sub-072_T1w.nii.gz
+			 The most common set of dimensions is: 256,256,192 (voxels), This file has the dimensions: 256,256,160 (voxels). The most common resolution is: 1.00mm x 1.00mm x 1.00mm, This file has the resolution: 0.98mm x 0.98mm x 1.00mm.
+		/sub-084/anat/sub-084_T1w.nii.gz
+			 The most common set of dimensions is: 256,256,192 (voxels), This file has the dimensions: 256,256,176 (voxels). The most common resolution is: 1.00mm x 1.00mm x 1.00mm, This file has the resolution: 1.02mm x 1.02mm x 1.00mm.
+		/sub-087/anat/sub-087_T1w.nii.gz
+			 The most common set of dimensions is: 256,256,192 (voxels), This file has the dimensions: 256,256,191 (voxels).
+		/sub-093/anat/sub-093_T1w.nii.gz
+			 The most common set of dimensions is: 256,256,192 (voxels), This file has the dimensions: 256,256,160 (voxels). The most common resolution is: 1.00mm x 1.00mm x 1.00mm, This file has the resolution: 1.02mm x 1.02mm x 1.00mm.
+		/sub-096/anat/sub-096_T1w.nii.gz
+			 The most common set of dimensions is: 256,256,192 (voxels), This file has the dimensions: 256,256,176 (voxels). The most common resolution is: 1.00mm x 1.00mm x 1.00mm, This file has the resolution: 1.02mm x 1.02mm x 1.00mm.
+		/sub-097/func/sub-097_task-passivelistening_bold.nii.gz
+			 The most common set of dimensions is: 70,70,32,310 (voxels), This file has the dimensions: 70,70,32,315 (voxels).
+		/sub-101/anat/sub-101_T1w.nii.gz
+			 The most common set of dimensions is: 256,256,192 (voxels), This file has the dimensions: 256,256,160 (voxels).
+		/sub-103/anat/sub-103_T1w.nii.gz
+			 The most common resolution is: 1.00mm x 1.00mm x 1.00mm, This file has the resolution: 0.98mm x 0.98mm x 1.00mm.
+		/sub-105/anat/sub-105_T1w.nii.gz
+			 The most common set of dimensions is: 256,256,192 (voxels), This file has the dimensions: 256,256,176 (voxels).
+		/sub-108/anat/sub-108_T1w.nii.gz
+			 The most common set of dimensions is: 256,256,192 (voxels), This file has the dimensions: 256,256,160 (voxels).
+		/sub-109/anat/sub-109_T1w.nii.gz
+			 The most common set of dimensions is: 256,256,192 (voxels), This file has the dimensions: 256,256,176 (voxels). The most common resolution is: 1.00mm x 1.00mm x 1.00mm, This file has the resolution: 1.02mm x 1.02mm x 1.00mm.
+		/sub-122/anat/sub-122_T1w.nii.gz
+			 The most common set of dimensions is: 256,256,192 (voxels), This file has the dimensions: 256,256,176 (voxels).
+		/sub-127/anat/sub-127_T1w.nii.gz
+			 The most common set of dimensions is: 256,256,192 (voxels), This file has the dimensions: 256,256,176 (voxels). The most common resolution is: 1.00mm x 1.00mm x 1.00mm, This file has the resolution: 1.02mm x 1.02mm x 1.00mm.
+		/sub-136/anat/sub-136_T1w.nii.gz
+			 The most common set of dimensions is: 256,256,192 (voxels), This file has the dimensions: 256,256,176 (voxels).
+		/sub-143/anat/sub-143_T1w.nii.gz
+			 The most common set of dimensions is: 256,256,192 (voxels), This file has the dimensions: 256,256,176 (voxels).
+		/sub-158/anat/sub-158_T1w.nii.gz
+			 The most common set of dimensions is: 256,256,192 (voxels), This file has the dimensions: 256,256,176 (voxels).
+		/sub-181/anat/sub-181_T1w.nii.gz
+			 The most common set of dimensions is: 256,256,192 (voxels), This file has the dimensions: 256,256,176 (voxels).
+		/sub-185/anat/sub-185_T1w.nii.gz
+			 The most common set of dimensions is: 256,256,192 (voxels), This file has the dimensions: 256,256,176 (voxels).
+		/sub-198/anat/sub-198_T1w.nii.gz
+			 The most common set of dimensions is: 256,256,192 (voxels), This file has the dimensions: 256,256,176 (voxels). The most common resolution is: 1.00mm x 1.00mm x 1.00mm, This file has the resolution: 1.02mm x 1.02mm x 1.00mm.
+		/sub-198/func/sub-198_task-passivelistening_bold.nii.gz
+			 The most common set of dimensions is: 70,70,32,310 (voxels), This file has the dimensions: 70,70,32,315 (voxels).
+
+        Summary:                   Available Tasks:         Available Modalities: 
+        6160 Files, 42.68GB        passive listening        T1w                   
+        217 - Subjects                                      bold                  
+        1 - Session                                                               
+
