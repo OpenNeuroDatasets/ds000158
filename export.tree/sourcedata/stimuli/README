@@ -1,0 +1,24 @@
+These files are also available here: http://vnl.psy.gla.ac.uk/resources.php
+
+The following is taken from the the above website:
+
+"The file TVA_loc.zip contains a set of stimuli to perform in a functional localizer of the 
+temporal voice areas (TVA) with fMRI. This functional localizer lasts 10 minutes and is based 
+on the contrast of vocal vs. nonvocal sounds (cf. Belin et al, (2000) Nature).
+The localizer contains 40 8-sec blocs of sounds (16 bit, mono, 22050 Hz sampling rate): 20 
+blocs (vocal_01 -> vocal_20) consist of only vocal sound (speech as well as nonspeech), and 
+20 consist of only nonvocal sounds (industrial sounds, environmental sounds, as well as some 
+animal vocalizations). All sounds have been normalized for RMS; a 1kHz tone of similar energy 
+is provided for calibration.
+The file TVA_loc.txt provides a proposed order of the sound blocs, optimized for the contrast 
+Vocal vs. Nonvocal. Number 1->20 refer to the 20 vocal blocs; number 21->40 refer to the 20 
+nonvocal blocs; 99 refers to an 8-sec silence bloc.
+The localizer has been planned for a TR of 10 sec (sparse sampling), with a dummy scan at the 
+beginning (starting the sound stimulation), and a beginning of each block 2 sec after 
+beginning of image acquisition. In this case, and following the bloc order suggested in 
+TVA_loc.txt, 61 volumes should be acquired, and the vector of onsets for the two conditions 
+VOCAL and NONVOCAL are (in seconds):
+VOCAL = [22 62 82 112 132 162 202 222 242 262 312 352 372 402 432 462 482 512 542 572];
+NONVOCAL= [12 32 52 102 122 142 182 232 282 302 322 342 382 422 442 472 502 522 552 592];
+Note: it is also possible to use the localizer with a TR of 2 sec, with a continuous 
+scanning noise as background."
